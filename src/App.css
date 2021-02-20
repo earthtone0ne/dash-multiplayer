@@ -1,7 +1,17 @@
-.App {
-  text-align: center;
+:root {
+  --cream: #FCF7E3;
+  --gold: #C6A064;
+  --purple: #753780;
+  --red: #D72C59;
 }
 
+.App {
+  text-align: center;
+  color: var(--cream);
+}
+code {
+  color: var(--red);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #24488f;
+  background-color: var(--purple);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +35,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--gold);
 }
 
 @keyframes App-logo-spin {
